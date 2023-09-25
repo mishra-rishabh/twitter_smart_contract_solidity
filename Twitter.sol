@@ -18,7 +18,6 @@ contract Twitter {
 
     constructor() {
         owner = msg.sender;
-
     }
 
     modifier onlyOwner() {
